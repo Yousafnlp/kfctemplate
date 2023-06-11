@@ -1,0 +1,303 @@
+.delivery-btn{
+    background-color: #48413E;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 0px solid transparent;
+}
+
+.pickup-btn{
+    background-color: #1C1816;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 4px;
+    border: 0px solid transparent;
+}
+
+.nav-btns{
+    width: fit-content;
+    background-color: #1C1816;
+    border: 0px solid transparent;
+    border-radius: 12px;
+}
+
+.location-btn{
+    background-color: #1C1816;
+    color: white;
+    border-radius: 8px;
+    border: 0px solid transparent;
+}
+
+
+.location-btn span{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.location-btn i{
+    color: #E4002B !important;
+    font-size: 20px;
+}
+
+.sign-btn{
+    background-color: #E4002B;
+    color: white;
+    border-radius: 8px;
+    border: 0px solid transparent;
+}
+
+
+.bg-pure-black{
+    background-color: black;
+    color: white;
+}
+
+.start-nav{
+    height: fit-content;
+}
+
+
+
+.myline{
+    background-color: #E4002B;
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    top: 47%;
+    z-index: 2;
+}
+
+
+.heading-sec h3{
+    text-transform: uppercase;
+    color: white;
+    z-index: 3;
+    margin: 0;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: black;
+    padding-right: 12px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+
+
+.body-swiper {
+    position: relative;
+  }
+
+  .body-swiper {
+    background: #000000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content !important;
+    margin: 0 !important;
+  }
+
+  .swiper-wrapper{
+      justify-content: center;
+      gap: 10px;
+  }
+
+  .product img{
+    height: 100%;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+  }
+
+
+  .product p{
+    font-size: 13px;
+    padding-top: 8px;
+  }
+
+  .product span{
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 8px;
+  }
+  
+  .product button{
+    font-weight: 700;
+    font-size: 13px;
+    padding: 6px 16px;
+    background-color: #E4002B; 
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: white;
+  }
+
+  .my-product-card{
+   background-color: #1C1816;
+    padding: 15px;
+    border-radius: 18px;
+  }
+
+  .my-product-card h3{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-top: 12px;
+  }
+
+  *{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .bg-pure-gray{
+   background-color: #1C1816;
+  }
+
+  .my-icons{
+    cursor: pointer;
+    margin-left: 8px;
+    padding: 8px;
+    display: inline-flex;
+    background-color: white;
+    border-radius: 20px;
+    vertical-align: middle;
+  }
+
+  .footer li{
+    list-style: none;
+    color: white;
+  }
+
+  .my-div{
+    padding: 8px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .my-btn-bg{
+    background-color: #E4002B; 
+    display: inline-block;
+    padding: 10px 38px;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 8px;
+    
+  }
+
+
+  .my-bg-img{
+    cursor: pointer;
+    border-radius: 15px;
+  }
+
+  .footer li{
+    transition: all 0.5s;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 2px 0px;
+  }
+
+  .footer li:hover{
+    color: #E4002B; 
+    
+  }
+
+  .start-nav{
+    gap: 3rem;
+  }
+
+
+
+  @media screen and (max-width: 500px){
+
+    .start-nav{
+      flex-direction: column;
+      gap: 12px !important;        
+    }
+    
+    .hide-me{
+      display: none;
+    }
+
+    .heading-sec h3{
+      font-size: 18px;
+    }
+
+
+    .my-product-card{
+      padding: 8px;
+    }
+
+    .my-product-card p{
+      font-size: 12px;
+      margin: 0px;
+    }
+
+    .myflex{
+      flex-direction: column;
+    }
+
+    .product button {
+      padding: 5px;
+    }
+
+    .my-bg-img img{
+      width: 200px;
+    }
+
+    .my-bg-img h5{
+      font-size: 18px;
+    }
+
+    .my-btn-bg{
+      font-size: 17px;
+      padding: 6px 28px;
+    }
+
+    .footer{
+      padding: 0px;
+    }
+  }
+
+  
+  @media screen and (max-width: 800px){
+
+    .my-bg-img img{
+      width: 180px;
+    }
+
+    .my-bg-img h5{
+      font-size: 16px;
+    }
+
+    
+    .my-btn-bg{
+      font-size: 16px;
+      padding: 4px 18px;
+    }
+
+
+  }
+
+
+  
+  @media screen and (max-width: 570px){
+
+    
+    .swiper-slide img{
+      width: 120px;
+    }
+  }
